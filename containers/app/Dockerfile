@@ -1,5 +1,5 @@
 ARG OPENHANDS_BUILD_VERSION=dev
-FROM node:20-alpine AS frontend-builder
+FROM node:24-alpine AS frontend-builder
 
 
 WORKDIR /app
